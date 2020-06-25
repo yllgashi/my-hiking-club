@@ -1,0 +1,81 @@
+.paragrafi,.h1{
+    color: #808080;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.foteri{
+
+    background-color:#B9B1AF ;
+    text-align: center;
+    clear: both;
+    padding: 3px;
+}
+
+
+
+
+header a {
+    color: #615D5C !important;
+}
+
+header input {
+    background-color: #615D5C !important;
+    color: white !important;
+}
+
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../content/news-content/toomas-tartes-Yizrl9N_eDA-unsplash.jpg');
+
+}
+#hero1 {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../content/news-content/galen-crout-fItRJ7AHak8-unsplash.jpg');
+}
+#hero2 {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('../content/news-content/arthur-poulin-NhU0nUR7920-unsplash.jpg');
+}
+          

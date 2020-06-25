@@ -1,0 +1,89 @@
+<!-- Yll Gashi -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hiking Club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/mainStyle.css">
+    <link rel="stylesheet" href="../css/about.css">
+</head>
+<body>
+    <!-- header with navbar -->
+    <header>
+        <!-- logo on left side of header -->
+        <a href="#" id="logo" onclick="Logo()"><img src="../content/shared-content/nav-logo.png" alt=""></a>
+        <nav id="first-nav">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="contact.html">Contact</a></li>
+             <input type="text" name="main-search" id="nav-search">                    
+            </ul>
+        </nav>
+    </header>
+
+    <!-- scroll to top img -->
+    <a href=""><img src="../content/shared-content/scroll-up.png" id="scroll-up-img"></a>
+
+    <main>
+        <!-- about-us-in-few-words section -->
+        <section id="fist-section">
+            <!-- sticky heading -->
+            <h1 class="main-headings" id="first-section-heading">About Us In Few Words</h1>
+            <!-- questions-with-answers article -->
+            <article>
+                <h2 class="first-section-content-headings">What is Hiking ?</h2>
+                <p class="first-section-content-paragraphs" id="first-section-first-paragraph">Hiking is an activity of moderate difficulty, which involves walking across long distances generally on trails or paths.
+                </p>
+                <h2 class="first-section-content-headings">What are our services ?</h2>
+                <p class="first-section-content-paragraphs">Hiking clubs offer many benefits. When you join a hiking club, you meet other hikers. You also give yourself opportunities to hike regularly.
+                </p>
+                <h2 class="first-section-content-headings">Where can you find us ?</h2>
+                <p class="first-section-content-paragraphs">You can find us in Prishtine.
+                </p>
+            </article>
+        </section>
+
+        <!-- email-us section -->
+        <section id="second-section">
+            <!-- sticky heading -->
+            <h1 class="main-headings" id="second-section-heading">Who are we ?</h1>
+            <!-- first animated person -->
+            <div class="second-section-images-div">
+                <a href="mailto:filanefisteku01@gmail.com"><abbr title="Filane Fisteku"><img src="../content/about-content/section-2/person-5.png" alt=""></abbr></a>
+            </div>
+            <!-- other animated people -->
+            <div class="second-section-images-div">
+                <a href="mailto:filanfisteku02@gmail.com"><abbr title="Filan Fisteku"><img src="../content/about-content/section-2/person-7.png" alt=""></abbr></a>
+                <a href="mailto:filanfisteku03@gmail.com"><abbr title="Filan Fisteku"><img src="../content/about-content/section-2/person-3.png" alt=""></abbr></a>
+                <a href="mailto:filanfisteku04@gmail.com"><abbr title="Filan Fisteku"><img src="../content/about-content/section-2/person-6.png" alt=""></abbr></a>
+            </div>
+        </section>
+
+        <!-- article before footer -->
+        <article id="second-article">
+            <img src="../content/shared-content/man-climbing-2.png">
+        </article>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <!-- map of Kosovo -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1504722.080188341!2d20.187355601394664!3d42.5571972616433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13537af354bf7df1%3A0xbfffeedfabc31791!2sKosovo!5e0!3m2!1sen!2s!4v1590444785909!5m2!1sen!2s" width="300" height="200" frameborder="0" overflow="hidden" id="map-iframe"></iframe>
+        <!-- image who direct you to the wikipedia page -->
+        <div id="div-of-location"><a href="" id="ClickCity" target="_blank" onclick="ChooseCity()"><img src="../content/shared-content/location.png" alt="Click to see about cities"></a></div>
+        <!-- second nav on footer -->
+        <nav id="second-nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>                
+            </ul>
+        </nav>
+    </footer>
+    <!-- external javascript -->
+    <script src="../js/about.js"></script>
+</body>
+</html>
