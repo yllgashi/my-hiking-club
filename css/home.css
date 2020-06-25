@@ -126,7 +126,6 @@ main .group-of-images{
 }
 
 .group-of-images .link-of-images .text-in-images .title-of-text-in-images{
-    /* line-height tregon se sa eshte gjatesia e rreshtit */
     line-height: 1;
     font-weight: 600;
     font-size: 18px;
@@ -145,7 +144,6 @@ main .group-of-images{
 }
 
 .group-of-images .link-of-images:focus:before, .group-of-images .link-of-images:hover:before{
-    /* Nese position: absolute ose fixed, kjo property e bon qe skaji i ketij elementi zhvendoset me lart ketyre */
     top: 50%;
 }
 
@@ -154,7 +152,6 @@ main .group-of-images{
 }
 
 .group-of-images .link-of-images:focus .title-of-text-in-images, .group-of-images .link-of-images:hover .title-of-text-in-images{
-    /* Sa kohe shkon para se te filloj efekti */
     transition-delay: 0.15s;
 }
 
